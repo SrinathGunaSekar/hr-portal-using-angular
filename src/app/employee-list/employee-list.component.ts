@@ -9,13 +9,13 @@ export class EmployeeListComponent {
    employees: Employee[] = [
   {
     id: 1,
-    name: 'Sharmina',
-    email: 'arun.kumar@example.com',
-    role: 'Frontend Developer',
-    department: 'IT',
-    salary: 5000,
+    name: 'sharms',
+    email: 'srinath@example.com',
+    role: 'Backend Developer',
+    department: 'CS',
+    salary: 105000,
     joiningDate: '2023-06-15',
-    status: 'Inactive'
+    status: 'Active'
   },
   {
     id: 2,
