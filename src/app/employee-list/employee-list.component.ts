@@ -10,12 +10,12 @@ export class EmployeeListComponent {
   {
     id: 1,
     name: 'srinath',
-    email: 'arun.kumar@example.com',
-    role: 'Frontend Developer',
-    department: 'IT',
-    salary: 5000,
-    joiningDate: '2023-06-15',
-    status: 'Inactive'
+    email: 'soundar@example.com',
+    role: 'Backend Developer',
+    department: 'cse',
+    salary: 55000,
+    joiningDate: '2022-09-10',
+    status: 'Active'
   },
   {
     id: 2,
