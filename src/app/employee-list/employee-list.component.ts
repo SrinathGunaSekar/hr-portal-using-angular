@@ -15,7 +15,7 @@ export class EmployeeListComponent {
     department: 'IT',
     salary: 5000,
     joiningDate: '2023-06-15',
-    status: 'InActive'
+    status: 'Inactive'
   },
   {
     id: 2,
