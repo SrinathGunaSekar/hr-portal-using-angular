@@ -13,9 +13,9 @@ export class EmployeeListComponent {
     email: 'arun.kumar@example.com',
     role: 'Frontend Developer',
     department: 'IT',
-    salary: 55000,
+    salary: 5000,
     joiningDate: '2023-06-15',
-    status: 'Active'
+    status: 'InActive'
   },
   {
     id: 2,
