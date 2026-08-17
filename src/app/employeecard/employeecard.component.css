@@ -12,10 +12,10 @@
   margin: 0;
 }
 .active {
-  color: green;
+  color: rgb(3, 250, 3);
 }
 .inactive {
-  color: red;
+  color: rgb(245, 13, 13);
 }
 .employee-details {
   margin-top: 20px;
