@@ -1,0 +1,29 @@
+.employee-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.employee-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.employee-header h3 {
+  margin: 0;
+}
+.active {
+  color: green;
+}
+.inactive {
+  color: red;
+}
+.employee-details {
+  margin-top: 20px;
+}
+.employee-details p {
+  margin: 10px 0;
+}
+.delete-btn {
+  margin-top: 10px;
+  padding: 5px 15px;
+}

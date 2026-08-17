@@ -1,0 +1,18 @@
+<div class="employee-list-page">
+  <h1>Employees</h1>
+  <p>Manage all employees in the organization</p>
+  <div class="search-section">
+    <label for="search">Search Employees</label>
+    <br>
+    <input id="search" type="text" placeholder="Search by name, role or department..." [(ngModel)]="searchTerm" (ngModelChange)="searchEmployees()">
+  </div>
+  <p>Showing {{ filteredEmployees.length }} employee(s)</p>
+  <div class="container">
+    <app-employeecard *ngFor="let emp of filteredEmployees" [emp]="emp" (deleteEmployee)="deleteEmployee($event)">
+    </app-employeecard>
+  </div>
+  <div *ngIf="filteredEmployees.length === 0">
+    <h3>No employees found</h3>
+    <p>Try searching with another name, role or department.</p>
+  </div>
+</div>

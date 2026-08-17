@@ -1,0 +1,25 @@
+<div class="dashboard">
+  <h1>{{ message }}</h1>
+  <div class="stats-container">
+    <div class="stats-card">
+      <h3>Total Employees</h3>
+      <p>{{ total_employees }}</p>
+    </div>
+    <div class="stats-card">
+      <h3>Active</h3>
+      <p>{{ active }}</p>
+    </div>
+    <div class="stats-card">
+      <h3>Inactive</h3>
+      <p>{{ inactive }}</p>
+    </div>
+    <div class="stats-card">
+      <h3>Departments</h3>
+      <p>{{ departments }}</p>
+    </div>
+  </div>
+  <div class="refreshButton">
+    <button [disabled]="loading"(click)="refreshButton()">Refresh</button>
+    <p *ngIf="loading">Loading dashboard...</p>
+  </div>
+</div>

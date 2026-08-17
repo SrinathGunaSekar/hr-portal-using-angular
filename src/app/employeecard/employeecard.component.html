@@ -1,0 +1,16 @@
+<div class="employee-card">
+  <div class="employee-header">
+    <h3>{{ emp.name }}</h3>
+    <span [ngClass]="{'active': emp.status === 'Active','inactive': emp.status === 'Inactive'}">{{ emp.status }}</span>
+  </div>
+  <div class="employee-details">
+    <p><strong>Email:</strong> {{ emp.email }}</p>
+    <p><strong>Role:</strong>{{ emp.role }}
+    </p>
+    <p><strong>Department:</strong>{{ emp.department }}
+    </p>
+    <p> <strong>Salary:</strong>{{ emp.salary | currency:'INR' }}</p>
+    <p> <strong>Joining Date:</strong>{{ emp.joiningDate | date:'dd-MM-yyyy' }}</p>
+  </div>
+  <button class="delete-btn"(click)="delete()">Delete</button>
+</div>
